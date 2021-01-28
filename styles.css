@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&display=swap");
+
+.deadline-format {
+  background: rgb(103, 101, 198);
+  background: linear-gradient(
+    254deg,
+    rgba(103, 101, 198, 1) 25%,
+    rgba(103, 101, 198, 1) 55%,
+    rgba(103, 101, 198, 0.7) 100%
+  );
+  width: 9rem;
+  height: 9rem;
+  margin: 10px;
+  font-weight: bold;
+  color: #ffff;
+}
+
+.deadline {
+  display: flex;
+  padding: 15px;
+}
+
+.deadline-format h4 {
+  font-size: 2rem;
+}
+.giveaway {
+  font-size: 1.7rem;
+}
+.section-center {
+  border: 1px solid rgb(177, 168, 168);
+  background-color: rgb(230, 220, 220);
+  width: 70%;
+  font-family: "Inconsolata", sans-serif;
+  text-transform: capitalize;
+  text-align: center;
+  padding: 20px;
+}
+
+.section-center hr {
+  width: 90%;
+}
+
+@media screen and (max-width: 602px) {
+  .deadline-format h4 {
+    font-size: 1.5rem;
+  }
+  .giveaway {
+    font-size: 1.2rem;
+  }
+  .section-center {
+    width: 99%;
+    padding: 0px;
+  }
+  .deadline-format {
+    width: 7rem;
+    height: 7rem;
+  }
+}
